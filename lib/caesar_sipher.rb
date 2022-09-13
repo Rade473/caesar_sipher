@@ -28,3 +28,6 @@ class CaesarDecipher
   end
   end
 
+testing = CeasarCipher.new
+
+p testing.caesar_cipher('Hello there', 3)
